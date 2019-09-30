@@ -26,27 +26,34 @@
 // Add a method that automatically increments the id related to your books and authors data structures, id should increment up by 1 like in Rails
 
 // 10.
+// Read through the following docs
+// https://expressjs.com/en/guide/routing.html
+// https://expressjs.com/en/guide/writing-middleware.html
+// https://expressjs.com/en/4x/api.html#express
+// https://expressjs.com/en/4x/api.html#req
+
+// 11.
 // Make two directories, one called backend, the other called frontend
 // Move all of the Express code into the backend directory
 // In the frontend directory add an HTML file that fetches the data from your backend (start with displaying all books)  
 // You'll get an error
 // Research CORS and fix the error https://www.npmjs.com/package/cors
 
-// 11.
+// 12.
 // Ensure that there's no duplicate names in our book data structure, if there's a duplicate book trying to be added respond with a 404 "cant add duplicate book" error
 
 // Optional
 
-// 12. 
+// 13. 
 // Research url encoded payloads
 // From postman send a url encoded request body to the add books endpoint (instead of JSON)
 
-// 13.
+// 14.
 // Remove the in memory data structures and replace them with hard disk .json files
 // When you add a new book or author it should be added to the .json file
 // This way even when you stop the server you won't be losing any data
 
-// 14.
+// 15.
 // Research how to use Express to send server rendered HTML files 
 // Use the Pug templating engine to write dynamic HTML
 // https://pugjs.org/api/getting-started.html
