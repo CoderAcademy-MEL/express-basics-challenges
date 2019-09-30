@@ -1,8 +1,14 @@
 // 1.
-// Make the following endpoints using middleware
+// Make the following endpoints using middleware 
+// Note that: all of your authorization logic should be in middleware only and all the endpoints need to be POST requests as you'll be sending a request body across
 
 // a.
-// A new endpoint that only users with the role "card game expert" is allowed to access, everyone else gets a 403 - forbidden response
+// Make a new endpoint that only users with the role "card game expert" are allowed to access, everyone else gets a 403 - forbidden response
+// Here's an example of the endpoint itself
+
+// app.post('/card-game', yourMiddleware, (req, res) => {
+//   res.send('you have access!')
+// })
 
 // b.
 // A new endpoint that only users with the role "cricket expert" cannot access (blacklisted), anyone with the role "cricket expert" gets a 402 - "you are too good at cricket" response
@@ -12,6 +18,8 @@
 
 // d. 
 // Extend the last route to be able to be passed any number of roles and can check whether the user is in that array
+// This one is tricky, a good google search term to research the topic would be "role based middleware authorization express"
+// Let a teacher know if you're having any trouble
 
 // 2.
 // We'll create a new app one with basic authentication and authorization
