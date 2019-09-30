@@ -43,3 +43,18 @@
 // 9. 
 // Add an endpoint that allows customers to buy a product, only customers should have access to this endpoint
 // Inventory should be reduced by whatever the customer wants
+
+// 10.
+// Read the stripe docs and make a charge to your stripe account
+// The charge will be similar to the way in which you implemented stripe in Rails
+// https://stripe.com/docs/charges
+
+// 11.
+// Build out a front end for your app
+// Create two new directories (backend and frontend), put all the express code (and the package.json) into the backend directory
+// For the frontend fulfill the following steps
+// When users land on the page they'll have the selection of products to choose from 
+// Users will be able to navigate to an individual item
+// On the individual item page users will be able to buy the item  
+// In order to buy an item users will need to be customers therefore you'll need to include a login page
+// Remember that CORS errors will be thrown, to solve CORS look up the cors package https://www.npmjs.com/package/cors
