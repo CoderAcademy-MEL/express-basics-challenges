@@ -33,6 +33,16 @@
 
 // 2.
 
+// a. Create a new database called books-app
+
+// b. Create a collection called books
+
+// c. Create a JSON file filled with book objects (you will hopefully have this JSON file from yesterday)
+
+// d. Figure out the way in which you can populate the books collection with a JSON file, potential google search term "mongo import json file"
+
+// 3.
+
 // Create a pokedex mongo database for pokemon and pokemon trainers
 
 // a.
