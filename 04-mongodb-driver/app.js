@@ -18,6 +18,7 @@ const MongoClient = require('mongodb').MongoClient;
 // if you're getting an authorization error you can change your password in DATABASE ACCESS 
 
 // b.
+// cd into the 04-mongodb-driver directory
 // run npm install
 
 const uri = "mongodb+srv://<yourname>:<yourpassword>@<your-cluster-name>.mongodb.net/test?retryWrites=true&w=majority";
