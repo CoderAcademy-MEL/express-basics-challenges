@@ -43,6 +43,7 @@ client.connect(err => {
       // 3.
       // Find only the first 10 comments and send them back to the client
       // Read the mongodb npm docs to figure out how to do it https://www.npmjs.com/package/mongodb#start-a-mongodb-server
+      // Hint: use the .limit() function to limit the data being sent back, the collection is massive so it's a bit slow to return
     })
   
     app.get('/comments/:id', (req, res, next) => {
@@ -63,6 +64,9 @@ client.connect(err => {
     });
 
       // 7.
+      // Use the async / await syntax instead, the toArray() method returns a promise when means you can await the result
+
+      // 8.
       // Optional challenge:
       // Create a new frontend directory with an index.html
       // Add a form
