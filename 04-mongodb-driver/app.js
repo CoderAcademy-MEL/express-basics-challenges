@@ -41,8 +41,8 @@ client.connect(err => {
   
     app.get('/comments', (req, res, next) => {
       // 3.
-      // Read the mongodb npm docs to figure out how to do it https://www.npmjs.com/package/mongodb#start-a-mongodb-server
       // Find only the first 10 comments and send them back to the client
+      // Read the mongodb npm docs to figure out how to do it https://www.npmjs.com/package/mongodb#start-a-mongodb-server
     })
   
     app.get('/comments/:id', (req, res, next) => {
