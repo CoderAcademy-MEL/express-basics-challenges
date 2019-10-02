@@ -2,7 +2,6 @@ const express = require('express')
 const app = express();
 const morgan = require('morgan');
 const ObjectID = require('mongodb').ObjectID;
-
 const MongoClient = require('mongodb').MongoClient;
 
 // 1.
