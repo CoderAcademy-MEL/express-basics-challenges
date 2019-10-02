@@ -68,9 +68,8 @@ client.connect(err => {
 
       // 8.
       // Optional challenge:
-      // Create a new frontend directory with an index.html
-      // Add a form
-      // This form should send the data to the comments POST endpoint to add a comment
+      // Create an endpoint that sends a HTML file with a form
+      // In this HTML file have some javascript that makes a fetch request to your backend to POST a new comment, you shouldn't have any cors issues with this approach as everything is running on the same port
 
   }
   client.close();
