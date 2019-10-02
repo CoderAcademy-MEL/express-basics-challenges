@@ -30,7 +30,7 @@ client.connect(err => {
     throw(err)
   }
   else {
-    const collection = client.db("sample_mflix").collection("netflix");
+    const collection = client.db("sample_mflix").collection("comments");
 
     app.listen(5000, () => {
       console.log('Listening on Port 5000');
