@@ -69,7 +69,7 @@ client.connect(err => {
       // 8.
       // Optional challenge:
       // Create an endpoint that sends a HTML file with a form
-      // In this HTML file have some javascript that makes a fetch request to your backend to POST a new comment, you shouldn't have any cors issues with this approach as everything is running on the same port
+      // In this HTML file write some javascript in a <script> that makes a POST fetch request to your backend to add a new comment, you shouldn't have any cors issues with this approach as everything is running on the same port
 
   }
   client.close();
